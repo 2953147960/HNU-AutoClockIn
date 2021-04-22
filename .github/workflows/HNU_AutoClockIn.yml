@@ -30,7 +30,7 @@ jobs:
     - name: ClockIn #打卡
       env:
         usr: ${{ 2953147960.USER }}
-        pwd: ${{ JYHzqr99....PASSWORD }}
+        pwd: ${{ .PASSWORD }}
         RealAddress: ${{ 319.REALADDRESS }}
         RealProvince_City_County: ${{ 湖南省,长沙市,岳麓区.REALPROVINCE_CITY_COUNTY }}
       run:
