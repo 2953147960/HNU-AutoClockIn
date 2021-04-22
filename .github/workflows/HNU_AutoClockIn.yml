@@ -29,9 +29,9 @@ jobs:
         pip install requests
     - name: ClockIn #打卡
       env:
-        usr: ${{ secrets.USER }}
-        pwd: ${{ secrets.PASSWORD }}
-        RealAddress: ${{ secrets.REALADDRESS }}
-        RealProvince_City_County: ${{ secrets.REALPROVINCE_CITY_COUNTY }}
+        usr: ${{ 2953147960.USER }}
+        pwd: ${{ JYHzqr99....PASSWORD }}
+        RealAddress: ${{ 319.REALADDRESS }}
+        RealProvince_City_County: ${{ 湖南省,长沙市,岳麓区.REALPROVINCE_CITY_COUNTY }}
       run:
         python AutoClockIn.py $usr $pwd $sckey $RealAddress $RealProvince_City_County
